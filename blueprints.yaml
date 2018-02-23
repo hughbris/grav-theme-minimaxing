@@ -1,0 +1,27 @@
+name: Minimaxing
+version: 0.1.0
+description: Port of Minimaxing by HTML5 UP
+icon: rebel
+author:
+  name: Hugh Barnes
+  email: dev@hubns.com
+homepage: https://github.com/hughbris/grav-theme-minimaxing
+# demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/hughbris/grav-theme-minimaxing/issues
+readme: https://github.com/hughbris/grav-theme-minimaxing/blob/develop/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in Menu
+        highlight: 1
+        default: 0 # TODO: kill this option?
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool
