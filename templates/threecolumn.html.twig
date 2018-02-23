@@ -4,28 +4,20 @@
 
 <div class="row main-row">
 
-						<div class="3u 12u(mobile)">
+	<div class="3u 12u(mobile)">
+		{% include 'partials/sidebar2.html.twig' %}
+	</div>
 
-	{% include 'partials/sidebar2.html.twig' %}
+	<div class="6u 12u(mobile) important(mobile)">
+		<section class="middle-content">
+			{{ page.content }}
+		</section>
+	</div>
 
-						</div>
+	<div class="3u 12u(mobile)">
+		{% include 'partials/sidebar1.html.twig' %}
+	</div>
 
-
-						<div class="6u 12u(mobile) important(mobile)">
-
-							<section class="middle-content">
-            {{ page.content }}
-        </section>
-
-
-						</div>
-
-    <div class="3u 12u(mobile)">
-	{% include 'partials/sidebar1.html.twig' %}
-    </div>
-
-
-					</div>
-
+</div>
 
 {% endblock %}
