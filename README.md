@@ -1,7 +1,139 @@
 # Minimaxing Theme
 
-The **Minimaxing** Theme is for [Grav CMS](http://github.com/getgrav/grav).  This README.md file should be modified to describe the features, installation, configuration, and general usage of this theme.
+The **Minimaxing** Theme is for [Grav CMS](http://github.com/getgrav/grav). It's a port of [Minimaxing](https://html5up.net/minimaxing) by HTML5 UP under its [CCA 3.0 license](https://html5up.net/license).
 
-## Description
+# Minimaxing
 
-Port of Minimaxing by HTML5 UP
+![Minimaxing](screenshot.jpg)
+
+# Installation
+
+Installing the Minimaxing theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
+
+<!--
+The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Minimaxing theme can be found in both the [One-page](https://github.com/hughbris/grav-skeleton-onepage-site) and [Blog Site](https://github.com/getgrav/grav-skeleton-blog-site) which are self-contained repositories for a complete sites which include: sample content, configuration, theme, and plugins.
+-->
+
+## GPM Installation (Preferred)
+
+The simplest way to install this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
+
+    bin/gpm install minimaxing
+
+This will install the Minimaxing theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/minimaxing`.
+
+>> This method will copy the sample pages provided in the `_demo/pages` folder to your `user/pages` folder so that the theme will work out of the box with placeholder content. The content is the same _Ipsum lorem_ content provided in the original [HTM5UP theme](https://html5up.net/minimaxing).
+
+## Manual Installation
+
+To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `minimaxing`. You can find these files either on [GitHub](https://github.com/hughbris/grav-theme-minimaxing) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+
+You should now have all the theme files under
+
+    /your/site/grav/user/themes/minimaxing
+
+>> NOTE: If you want to use and adapt the default _Ipsum lorem_ content provided with the original theme, move the contents of `_demo/pages` into your grav installations's `user/pages` directory. This will ensure that the theme templates work out of the box.
+
+# Updating
+
+As development for the Minimaxing theme continues, new versions may become available that add additional features and functionality, improve compatibility with newer Grav releases, and generally provide a better user experience. Updating Minimaxing is easy, and can be done through Grav's GPM system, as well as manually.
+
+## GPM Update (Preferred)
+
+The simplest way to update this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). You can do this with this by navigating to the root directory of your Grav install using your system's Terminal (also called command line) and typing the following:
+
+    bin/gpm update minimaxing
+
+This command will check your Grav install to see if your Minimaxing theme is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type `y` and hit enter. The theme will automatically update and clear Grav's cache.
+
+## Manual Update
+
+Manually updating Minimaxing is pretty simple. Here is what you will need to do to get this done:
+
+* Delete the `your/site/user/themes/minimaxing` directory.
+* Download the new version of the Minimaxing theme from either [GitHub](https://github.com/hughbris/grav-plugin-minimaxing) or [GetGrav.org](http://getgrav.org/downloads/themes#extras).
+* Unzip the zip file in `your/site/user/themes` and rename the resulting folder to `minimaxing`.
+* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
+
+> Note: Any changes you have made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
+
+<!--
+## Features
+
+* Lightweight and minimal for optimal performance
+* Fully responsive with off-page mobile navigation
+* SCSS based CSS source files for easy customization
+* Built-in support for on-page navigation
+* Multiple page template types
+* Fontawesome icon support
+-->
+
+### Supported Page Templates
+
+* Sample homepage view template
+* [Left sidebar two-column template](templates/twocolumn1.html.twig)
+* [Right sidebar two-column template](templates/twocolumn2.html.twig)
+* [Single column template](templates/onecolumn.html.twig)
+* [Three-column template](templates/threecolumn.html.twig)
+* Elements template (stub only, since this is not provided in the original theme)
+<!--
+* Modular view templates:
+  * Features Modular view template
+  * Showcase Modular view template
+  * Text Modular view template
+-->
+
+<!--
+### Menu Features
+
+##### Dropdown Menu
+
+You can enable **dropdown menu** support by enabling it in the `minimaxing.yaml` configuration file. As per usual, copy this file to your `user/config/themes/` folder (create if required) and edit there.
+
+```
+dropdown:
+  enabled: true
+```
+
+This will ensure that sub-pages show up as sub-menus in the navigation.
+
+##### Menu Text & Icons
+
+Each page shows up in the menu using the title by default, however you can set what displays in the menu directly by setting an explicit `menu:` option in the page header:
+
+```
+menu: My Menu
+```
+
+You can also provide an icon to show up in front of the menu item by providing an `icon:` option.  You need to use name of the FontAwesome icon without the `fa-` prefix.  Check out the full [list of current FontAwesome 4.2 icons](http://fortawesome.github.io/Font-Awesome/icons/):
+
+```
+icon: bar-chart-o
+```
+
+#### Custom Menu Items
+
+By default, Grav generates the menu from the page structure.  However, there are times when you may want to add custom menu items to the end of the menu.  This is now supported in Minimaxing by creating a menu list in your `site.yaml` file.  An example of this is as follows:
+
+```
+menu:
+    - text: Source
+      url: https://github.com/getgrav/grav
+    - icon: twitter
+      url: http://twitter.com/getgrav
+```
+
+The `url:` option is required, but you can provide **either** or **both** `text:` and/or `icon:`
+-->
+
+# Setup
+
+If you want to set Minimaxing as the default theme, you can do so by following these steps:
+
+* Navigate to `/your/site/grav/user/config`.
+* Open the **system.yaml** file.
+* Change the `theme:` setting to `theme: minimaxing`.
+* Save your changes.
+* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
+
+Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **minimaxing** folder.
