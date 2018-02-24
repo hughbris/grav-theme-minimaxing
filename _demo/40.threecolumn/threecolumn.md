@@ -1,5 +1,6 @@
 ---
-title: Threecolumn
+title: 'Three Column'
+menu: Threecolumn
 ---
 
 ## Three Column (two sidebars)

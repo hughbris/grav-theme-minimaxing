@@ -1,5 +1,6 @@
 ---
-title: Onecolumn
+title: 'One Column'
+menu: Onecolumn
 ---
 
 ## One Column (no sidebar)

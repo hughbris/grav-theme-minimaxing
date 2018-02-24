@@ -1,5 +1,6 @@
 ---
-title: 'Twocolumn #2'
+title: 'Two Column 2'
+menu: 'Twocolumn #2'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante ante, viverra a ornare sed, convallis sed est. Proin felis sapien, adipiscing quis eleifend vel, sodales vitae sapien. Donec vel lacus leo, eu convallis metus. Cras egestas feugiat tortor, vitae interdum augue aliquam a. Sed nec augue id orci egestas commodo in eget magna. Nunc eleifend diam non odio laoreet placerat gravida nulla bibendum. Phasellus tempus imperdiet suscipit.

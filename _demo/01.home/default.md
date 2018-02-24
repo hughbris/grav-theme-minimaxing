@@ -1,5 +1,5 @@
 ---
-title: Homepage
+menu: Homepage
 ---
 
 Homepage
