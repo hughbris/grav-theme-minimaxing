@@ -1,5 +1,8 @@
 ---
 menu: Homepage
+banner:
+    headline: 'Put something cool here!'
+    follower: 'And put something almost as cool here, but a bit longer ...'
 controls:
     - text: 'More cool designs ...'
       target: 'http://html5up.net'
