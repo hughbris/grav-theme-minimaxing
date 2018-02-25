@@ -1,6 +1,6 @@
 <section>
 	{% set creators = page.find('/components/creators') %}
-	<h2>{{ creators.header.heading }}</h2>
+	{{ creators.content }}
 	<ul class="small-image-list">
 		{% for module in creators.collection %}
 			{{ module.content }}

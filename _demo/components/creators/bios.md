@@ -1,6 +1,5 @@
 ---
 title: Biographies
-heading: 'Who are you guys?'
 routable: false
 content:
     items: '@self.modular'
@@ -9,3 +8,4 @@ content:
             - _jane-anderson
             - _james-doe
 ---
+## Who are you guys?
