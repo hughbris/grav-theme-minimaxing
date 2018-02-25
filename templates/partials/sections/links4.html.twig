@@ -1,25 +1,20 @@
+{% set per_column = 5 %}
+{% set links = links ?: page.header.links %}
 <section>
-	<h2>How about some links?</h2>
+	<h2>How about some links?</h2>{{ dump(links) }}
 	<div>
 		<div class="row">
-			<div class="6u 12u(mobile)">
-				<ul class="link-list">
-					<li><a href="#">Sed neque nisi consequat</a></li>
-					<li><a href="#">Dapibus sed mattis blandit</a></li>
-					<li><a href="#">Quis accumsan lorem</a></li>
-					<li><a href="#">Suspendisse varius ipsum</a></li>
-					<li><a href="#">Eget et amet consequat</a></li>
-				</ul>
-			</div>
-			<div class="6u 12u(mobile)">
-				<ul class="link-list">
-					<li><a href="#">Quis accumsan lorem</a></li>
-					<li><a href="#">Sed neque nisi consequat</a></li>
-					<li><a href="#">Eget et amet consequat</a></li>
-					<li><a href="#">Dapibus sed mattis blandit</a></li>
-					<li><a href="#">Vitae magna sed dolore</a></li>
-				</ul>
-			</div>
+		{% for link in links|slice(0, (per_column * 2)) %}
+			{% if (loop.index - 1) % per_column == 0 %}
+				<div class="6u 12u(mobile)">
+					<ul class="link-list">
+			{% endif %}
+			<li><a href="{{ link.target }}">{{ link.text }}</a></li>
+			{% if loop.last or (not(loop.first) and (loop.index % per_column) == 0) %}
+					</ul>
+				</div>
+			{% endif %}
+		{% endfor %}
 		</div>
 	</div>
 </section>
