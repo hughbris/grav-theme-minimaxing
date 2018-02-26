@@ -1,6 +1,28 @@
 ---
 title: 'Two Column 1'
 menu: 'Twocolumn #1'
+links:
+    list:
+        - target: '#'
+          text: 'Sed neque nisi consequat'
+        - target: '#'
+          text: 'Dapibus sed mattis blandit'
+        - target: '#'
+          text: 'Quis accumsan lorem'
+        - target: '#'
+          text: 'Suspendisse varius ipsum'
+        - target: '#'
+          text: 'Eget et amet consequat'
+        - target: '#'
+          text: 'Quis accumsan lorem'
+        - target: '#'
+          text: 'Sed neque nisi consequat'
+        - target: '#'
+          text: 'Eget et amet consequat'
+        - target: '#'
+          text: 'Dapibus sed mattis blandit'
+        - target: '#'
+          text: 'Vitae magna sed dolore'
 ---
 
 ## Two Column #1 (right-hand sidebar)

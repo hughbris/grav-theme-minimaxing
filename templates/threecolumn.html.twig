@@ -15,7 +15,16 @@
 	</div>
 
 	<div class="3u 12u(mobile)">
-		{% include 'partials/sidebar1.html.twig' %}
+		{% set options = { columns: 1 } %}
+		{% set standards = page.find('/components/links/_sidebar1').header %}
+		{% if standards.links %}
+			{% set links = {list: standards.links} %}
+			{% if standards.title %}
+				{% set links = links|merge({heading: standards.title}) %}
+			{% endif %}
+			{% set options= options|merge({links: links}) %}
+		{% endif %}
+		{% include 'partials/sidebar1.html.twig' with options %}
 	</div>
 
 </div>

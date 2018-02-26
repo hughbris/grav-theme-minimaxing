@@ -1,8 +1,29 @@
 ---
 title: 'Two Column 2'
 menu: 'Twocolumn #2'
+links:
+    list:
+        - target: '#'
+          text: 'Sed neque nisi consequat'
+        - target: '#'
+          text: 'Dapibus sed mattis blandit'
+        - target: '#'
+          text: 'Quis accumsan lorem'
+        - target: '#'
+          text: 'Suspendisse varius ipsum'
+        - target: '#'
+          text: 'Eget et amet consequat'
+        - target: '#'
+          text: 'Quis accumsan lorem'
+        - target: '#'
+          text: 'Sed neque nisi consequat'
+        - target: '#'
+          text: 'Eget et amet consequat'
+        - target: '#'
+          text: 'Dapibus sed mattis blandit'
+        - target: '#'
+          text: 'Vitae magna sed dolore'
 ---
-
 ## Two Column #2 (left-hand sidebar)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante ante, viverra a ornare sed, convallis sed est. Proin felis sapien, adipiscing quis eleifend vel, sodales vitae sapien. Donec vel lacus leo, eu convallis metus. Cras egestas feugiat tortor, vitae interdum augue aliquam a. Sed nec augue id orci egestas commodo in eget magna. Nunc eleifend diam non odio laoreet placerat gravida nulla bibendum. Phasellus tempus imperdiet suscipit.
