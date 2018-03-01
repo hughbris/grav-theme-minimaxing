@@ -391,3 +391,19 @@ Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu 
 
 </div>
 
+- - - - - - -
+
+## Preformatted
+
+```
+i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';
+```
+
