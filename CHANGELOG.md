@@ -1,5 +1,6 @@
 # v0.1.0
-##  02/18/2018
+##  18-02-2018
 
 1. [](#new)
-    * ChangeLog started...
+    * port of [existing theme](https://html5up.net/minimaxing)
+    * [demo pages](_demo/pages) and an additional [Elements page](_demo/pages/90.elements/onecolumn.md)

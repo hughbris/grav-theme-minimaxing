@@ -22,7 +22,7 @@
     {% endfor %}
 {% endmacro %}
 
-    {% if theme_config.dropdown.enabled %} {{ dump('frood') }}
+    {% if theme_config.dropdown.enabled %}
         {{ _self.loop(pages) }} {# TODO: not tested #}
     {% else %}
         {% for page in pages.children.visible %}

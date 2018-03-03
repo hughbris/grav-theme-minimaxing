@@ -4,7 +4,7 @@ title: Elements
 
 > README: This page is not part of the minimaxing theme but is probably a useful reference device to see gaps in the theme's styling (many, including basic elements like lists). If you see an element here, it will probably need to be styled by you to look half decent.
 
-> The elements have been taken faithfully from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable").
+> The elements markup has been taken faithfully copied from the [HTML5UP Massively theme elements page](https://html5up.net/massively "oops, resource not directly linkable").
 
 > This page uses [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/) and would likely benefit from loading [Font Awesome](https://fontawesome.com).
 

@@ -2,17 +2,13 @@
 
 The **Minimaxing** Theme is for [Grav CMS](http://github.com/getgrav/grav). It's a port of [Minimaxing](https://html5up.net/minimaxing) by HTML5 UP under its [CCA 3.0 license](https://html5up.net/license).
 
-# Minimaxing
+The Grav port includes an additional [Elements page](_demo/pages/90.elements/onecolumn.md) as per many HTML5UP themes, to allow you to identify gaps in the theme's styling (spoiler: there are many).
 
 ![Minimaxing](screenshot.jpg)
 
 # Installation
 
 Installing the Minimaxing theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
-
-<!--
-The theme by itself is useful, but you may have an easier time getting up and running by installing a skeleton. The Minimaxing theme can be found in both the [One-page](https://github.com/hughbris/grav-skeleton-onepage-site) and [Blog Site](https://github.com/getgrav/grav-skeleton-blog-site) which are self-contained repositories for a complete sites which include: sample content, configuration, theme, and plugins.
--->
 
 ## GPM Installation (Preferred)
 
@@ -57,17 +53,6 @@ Manually updating Minimaxing is pretty simple. Here is what you will need to do 
 
 > Note: Any changes you have made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/themes`) will remain intact.
 
-<!--
-## Features
-
-* Lightweight and minimal for optimal performance
-* Fully responsive with off-page mobile navigation
-* SCSS based CSS source files for easy customization
-* Built-in support for on-page navigation
-* Multiple page template types
-* Fontawesome icon support
--->
-
 ### Supported Page Templates
 
 * Sample homepage view template
@@ -75,13 +60,6 @@ Manually updating Minimaxing is pretty simple. Here is what you will need to do 
 * [Right sidebar two-column template](templates/twocolumn2.html.twig)
 * [Single column template](templates/onecolumn.html.twig)
 * [Three-column template](templates/threecolumn.html.twig)
-* Elements template (stub only, since this is not provided in the original theme)
-<!--
-* Modular view templates:
-  * Features Modular view template
-  * Showcase Modular view template
-  * Text Modular view template
--->
 
 <!--
 ### Menu Features
