@@ -55,7 +55,7 @@ Manually updating Minimaxing is pretty simple. Here is what you will need to do 
 
 ### Supported Page Templates
 
-* Sample homepage view template
+* [Sample homepage view template](templates/home.html.twig)
 * [Left sidebar two-column template](templates/twocolumn1.html.twig)
 * [Right sidebar two-column template](templates/twocolumn2.html.twig)
 * [Single column template](templates/onecolumn.html.twig)
