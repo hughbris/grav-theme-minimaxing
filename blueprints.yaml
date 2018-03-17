@@ -1,12 +1,12 @@
 name: Minimaxing
-version: 0.1.0
+version: 0.2.0
 description: Port of Minimaxing by HTML5 UP
 icon: rebel
 author:
   name: Hugh Barnes
   email: dev@hubns.com
 homepage: https://github.com/hughbris/grav-theme-minimaxing
-# demo: http://demo.yoursite.com
+demo: https://hughbris.github.io/grav-theme-minimaxing
 keywords: grav, theme, html5up, blue
 bugs: https://github.com/hughbris/grav-theme-minimaxing/issues
 readme: https://github.com/hughbris/grav-theme-minimaxing/blob/develop/README.md
