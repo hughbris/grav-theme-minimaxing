@@ -25,7 +25,6 @@
                 {% do assets.addCss('theme://css/ie9.css') %}
             {% endif %}
         {% endblock %}
-        {{ assets.css() }}
 
         {% include 'partials/metadata.html.twig' %}
 
@@ -42,7 +41,11 @@
             {% endif %}
             {% do assets.addJs('theme://js/main.js', {'group':'bottom'}) %}
         {% endblock %}
-        {{ assets.js() }}
+
+        {% block assets %}
+            {{ assets.css() }}
+            {{ assets.js() }}
+        {% endblock %}
 
 {% endblock head%}
 </head>
