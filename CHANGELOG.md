@@ -8,3 +8,13 @@
     * add docs, demo and correct keywords in blueprint
 1. [](#bugfix)
     * fix twig typo bug in header link
+
+# v0.2.3
+##  24-05-2018
+
+1. [](#improved)
+    * Base template modified so it can be extended to support a deferred asset block ([#9](https://github.com/hughbris/grav-theme-minimaxing/issues/9))
+    * change favicon and cleanup images folder
+
+1. [](#new)
+    * Instructions for deploying deferred asset blocks added to README
