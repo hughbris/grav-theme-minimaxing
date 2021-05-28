@@ -1,0 +1,48 @@
+/* dropdown patch */
+#header nav > .menu li {
+    display: block;
+    float: left;
+    outline: 0;
+    position: relative;
+}
+
+#header nav > .menu {
+    padding: 0;
+}
+
+/*
+#header nav a {
+    display: initial;
+}
+*/
+/* Dropdown menu */
+#header nav .menu .has-children .menu {
+    visibility: hidden;                           
+    position: absolute;
+    margin-top: 2px;
+    width: 200px;
+}
+
+#header nav .menu .has-children .menu li {
+    background-color: #0f4f5f;
+    display: block;
+    margin: 0;
+    padding: 10px 20px 10px 25px;
+    z-index: 99;
+    line-height: normal;
+    width: 100%;
+    border: solid 1px #0a3642;
+}
+
+#header nav .menu .has-children .menu li a {
+    padding: 0;
+}
+
+#header nav .menu .has-children:hover > .menu,
+#header nav .menu .has-children:focus-within > .menu,
+#header nav .menu .has-children .menu:hover,
+#header nav .menu .has-children .menu:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
