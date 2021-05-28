@@ -2,5 +2,5 @@
 	{% set blogroll = page.find('/blog') %}
 	{# blogroll.content #} {# hmmm, handy or no? #}
 	{% set featured = blogroll.collection|first %}
-	{{ featured.content }}
+	{{ featured.content|raw }}
 </article>

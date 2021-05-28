@@ -42,9 +42,9 @@
             {% do assets.addJs('theme://js/main.js', {'group':'bottom'}) %}
         {% endblock %}
 
-        {% block assets %}
-            {{ assets.css() }}
-            {{ assets.js() }}
+        {% block assets deferred %}
+            {{ assets.css()|raw }}
+            {{ assets.js()|raw }}
         {% endblock %}
 
 {% endblock head%}
@@ -96,7 +96,7 @@
 </div>
 
 {% block bottom %}
-    {{ assets.js('bottom') }}
+    {{ assets.js('bottom')|raw }}
 {% endblock %}
 </body>
 </html>
