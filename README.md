@@ -65,7 +65,6 @@ Manually updating Minimaxing is pretty simple. Here is what you will need to do 
 
 [Deferred blocks were introduced in Grav 1.5.10](https://getgrav.org/blog/important-theme-updates) and **are now required by this theme**.
 
-<!--
 ### Menu Features
 
 ##### Dropdown Menu
@@ -106,7 +105,6 @@ menu:
 ```
 
 The `url:` option is required, but you can provide **either** or **both** `text:` and/or `icon:`
--->
 
 # Setup
 
