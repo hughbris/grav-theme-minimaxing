@@ -1,3 +1,12 @@
+# v0.2.5
+## 29-05-2021
+
+1. [](#bugfix)
+    * Add support for custom CSS as per Grav theme conventions ([#6](https://github.com/hughbris/grav-theme-minimaxing/issues/6))
+1. [](#new)
+    * Add basic submenus ([#12](https://github.com/hughbris/grav-theme-minimaxing/issues/12) and probably the mysterious [#8](https://github.com/hughbris/grav-theme-minimaxing/issues/8)) (3339e39b)
+    * Style basic submenus for mobile
+
 # v0.2.4
 ## 28-05-2021
 
