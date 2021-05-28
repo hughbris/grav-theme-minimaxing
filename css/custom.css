@@ -23,8 +23,11 @@
     width: 200px;
 }
 
+#header nav .menu .has-children .menu li:hover {
+    background-color: #07809e;
+}
 #header nav .menu .has-children .menu li {
-    background-color: #0f4f5f;
+    /* background-color: #0f4f5f; */
     display: block;
     margin: 0;
     padding: 10px 20px 10px 25px;
@@ -35,7 +38,7 @@
 }
 
 #header nav .menu .has-children .menu li a {
-    padding: 0;
+    padding: 10px 20px 10px 25px;
 }
 
 #header nav .menu .has-children:hover > .menu,
@@ -45,4 +48,5 @@
     visibility: visible;
     opacity: 1;
     display: block;
+    background-color: #0086a6;
 }
