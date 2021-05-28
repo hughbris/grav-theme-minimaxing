@@ -41,6 +41,10 @@
     padding: 10px 20px 10px 25px;
 }
 
+#header nav .menu .has-children ul.menu {
+    padding-top: initial;
+}
+
 #header nav .menu .has-children:hover > .menu,
 #header nav .menu .has-children:focus-within > .menu,
 #header nav .menu .has-children .menu:hover,
@@ -49,4 +53,14 @@
     opacity: 1;
     display: block;
     background-color: #0086a6;
+}
+
+@media screen and (max-width: 736px) {
+    #navPanel .link.depth-1 {
+        padding-left: 1.5em;
+    }
+
+    #navPanel .link.depth-1:before {
+        content: '… ';
+    }
 }
