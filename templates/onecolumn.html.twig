@@ -5,8 +5,10 @@
 <div class="row main-row">
 
 	<div class="12u">
-		<section>
-			{{ page.content|raw }}
+		<section class="inner">
+			{% block inner_content %}
+				{{ page.content|raw }}
+			{% endblock %}
 		</section>
 	</div>
 </div>
