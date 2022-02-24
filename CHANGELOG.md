@@ -1,3 +1,10 @@
+# v0.2.6
+## DD-MM-2022
+
+1. [](#improved)
+    * Update README about deferred assets (support now required) (feee269) and dropdown menus (a587c96)
+    * Improve blocks
+
 # v0.2.5
 ## 29-05-2021
 
