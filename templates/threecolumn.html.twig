@@ -4,17 +4,21 @@
 
 <div class="row main-row">
 
-	<div class="3u 12u(mobile)">
-		{% include 'partials/sidebar2.html.twig' %}
+	<div class="3u 12u(mobile) sidebars">
+		{% block sidebar2 %}
+			{% include 'partials/sidebar2.html.twig' %}
+		{% endblock sidebar2 %}
 	</div>
 
 	<div class="6u 12u(mobile) important(mobile)">
 		<section class="middle-content">
-			{{ page.content|raw }}
+			{% block inner_content %}
+				{{ page.content|raw }}
+			{% endblock inner_content %}
 		</section>
 	</div>
 
-	<div class="3u 12u(mobile)">
+	<div class="3u 12u(mobile) sidebars">
 		{% set options = { columns: 1 } %}
 		{% set standards = page.find('/components/links/_sidebar1').header %}
 		{% if standards.links %}
@@ -24,7 +28,9 @@
 			{% endif %}
 			{% set options= options|merge({links: links}) %}
 		{% endif %}
-		{% include 'partials/sidebar1.html.twig' with options %}
+		{% block sidebars %}
+			{% include 'partials/sidebar1.html.twig' with options %}
+		{% endblock sidebars %}
 	</div>
 
 </div>
